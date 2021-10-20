@@ -436,5 +436,20 @@ font-size: 18px;
 
  }
  .read-btn{
-     
+    width: 87px;
+    height: 34px;
+    background: black;
+    border: none;
+    border-radius: 27px;
+    font-size: 19px;
+    color: white;
+    filter: drop-shadow(2px 1.5px 4px #E5E5E5);
+    margin-left: 45%;
+    margin-top: 20px;
  }
+ .read-btn:hover{
+    filter: drop-shadow(2px 1.5px 4px blue);
+ }
+
+ 
+/* --contact page--- */
