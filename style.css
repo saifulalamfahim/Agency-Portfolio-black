@@ -453,3 +453,125 @@ font-size: 18px;
 
  
 /* --contact page--- */
+.contact-sec{
+    background: black;
+}
+.contact-sec .container .contact h1{
+    width: 100%;
+    height: 260px;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 140px;
+    line-height: 186%;
+    /* or 260px */
+    letter-spacing: 0.6em;
+    color: #FFFFFF;
+    text-shadow: 12px 23px 15px #385069;
+}
+.contact-sec .container .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.contact-sec .container .flex .con-dtl h4{
+    width: 215px;
+    height: 43px;
+    font-size: 23px;
+    line-height: 186%;
+    /* identical to box height, or 43px */
+    letter-spacing: 0.24em;
+    color: #FFFFFF;
+    margin-left: 103px;
+}
+.contact-sec .container .flex .con-dtl p{
+    width: 486px;
+    height: 44px;
+    font-size: 12px;
+    line-height: 186%;
+    /* or 22px */
+    letter-spacing: 0.6em;
+    color: #FFFFFF;
+    margin-left: 103px;
+}
+.contact-sec .container .flex .con-dtl .cont-ver .cont-inf{
+    display: flex;
+    margin-left: 103px;
+    margin-top: 40px;
+    align-items: center;
+}
+.contact-sec .container .flex .con-dtl .cont-ver .cont-inf p{
+    width: 367px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 186%;
+    /* or 22px */
+    letter-spacing: 0.24em;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+.contact-sec .container .flex .con-dtl .cont-ver .cont-inf .iconify{
+    width: 30px;
+    height: 30px;
+}
+
+.contact-sec .container .flex .form{
+    width: 509px;
+    height: 314px;
+    background:black;
+    box-shadow: 2px 1.5px 8px blue;
+    border-radius: 23px;
+    padding: 30px 55px;
+    margin-right: 103px;
+}
+.contact-sec .container .flex .form .input-1{
+    width: 387px;
+    height: 34px;
+    background: #000000;
+    border: none;
+    border-radius: 23px;
+    box-shadow: 2px 1.5px 8px blue;
+    margin-bottom: 20px;
+    color: white;
+    padding-left: 20px;
+}
+.contact-sec .container .flex .form .input-1:hover{
+    box-shadow: 2px 1.5px 8px white;
+}
+
+.contact-sec .container .flex .form .input-2{
+    width: 387px;
+    height: 100px;
+    background: #000000;
+    box-shadow: 2px 1.5px 8px blue;
+    border: none;
+    border-radius: 23px;
+    color: white;
+    padding-left: 20px;
+}
+.contact-sec .container .flex .form .input-2:hover{
+    box-shadow: 2px 1.5px 8px white;
+}
+.input-1::placeholder {
+    color: rgba(229, 229, 229, 0.35);
+  }
+.input-2::placeholder {
+    color: rgba(229, 229, 229, 0.35);
+  }
+
+.send-btn{
+    width: 87px;
+    height: 34px;
+    background: black;
+    border: none;
+    border-radius: 27px;
+    font-size: 19px;
+    color: white;
+    filter: drop-shadow(2px 1.5px 4px blue);
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.send-btn:hover{
+    filter: drop-shadow(2px 1.5px 4px white);
+ }
