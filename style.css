@@ -647,6 +647,166 @@ font-size: 18px;
 
 /*------ resposive area----------- */
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 992px){ 
+    .nav{   /* working */
+        margin-right: 90px;  
+    }
+   
+
+
+
+    .row{  /* working */
+        padding-bottom: 200px;
+    }
+
+    .header .row .header-detail h1{   /* working */
+        font-size: 42px;
+        font-weight: 600;
+        
+    }
+    .header .row .header-detail p{ /* working */
+        width: 674px;
+    }
+    .explore-btn{ /* working */
+        top: 520px;
+    }
+    .more-btn{ /* working */
+        top: 520px;
+    }
+
+
+    /* --about-- */
+
+    .about-sec{
+        background-color: black;
+    }
+    .about-sec .container .about h1{ /* working */
+        font-size: 100px;
+    }
+    .about-sec .container .about-col-1 .pera p{  /* working */
+        width: 470px;
+        font-size: 9px;
+        padding-bottom: 80px;
+        line-height: 136%;
+    }
+    .about-sec .container .about-col-1 .about-box .white-box{  /* working */
+        width: 321px;
+        height: 286px;
+        left: 539px;
+    }
+    .about-sec .container .about-col-1 .about-box .white-box .white-img img{  /* working */
+        width: 321px;
+        height: 286px;
+    }
+    .about-sec .container .about-col-2 .about-box .white-box{ /* working */
+        width: 321px;
+        height: 286px;
+        margin-left: 103px;
+    }
+    .about-sec .container .about-col-2 .about-box .white-box .white-img img{ /* working */
+        margin-left: 40px;
+        margin-top: 40px;
+        width: 321px;
+        height: 286px;
+    }
+    .about-sec .container .about-col-2 .pera p{  /* working */
+        margin-left: 539px;
+        width: 470px;
+        font-size: 9px;
+        padding-bottom: 80px;
+        line-height: 136%;
+        padding-right: 110px;
+    }
+    .about-sec .container .about-col-3 .together-img .img-1 img{ /* working */
+        width: 271px;
+        height: 245px;
+    }
+    .about-sec .container .about-col-3 .together-img .img-2 .div-1 img{ /* working */
+        width: 112px;
+        height: 112px;
+    }
+    .about-sec .container .about-col-3 .together-img .img-3 img{ /* working */
+        width: 340px;
+        height: 245px;
+    }
+    .about-sec .container .about-col-3 .pera-last{ /* working */
+        font-size: 9px;
+        padding-right: 340px;
+         line-height: 136%;
+    }
+
+
+    /* --sevices-- */
+    .services-sec{
+        background: black;
+    }
+    .services-sec .container .services h1{
+       width: 100%;
+       height: 279px;
+       font-style: italic;
+       font-weight: 100;
+       font-size: 148px;
+       line-height: 186%;
+       margin-top: -50px;
+       /* identical to box height, or 279px */
+       letter-spacing: 0.6em;
+       color: #FFFFFF;
+       text-shadow: 12px 23px 15px #385069;
+    }
+    .services-sec .container .services h1:hover{
+       text-shadow: 12px 23px 15px blue;
+   }
+    .services-sec .container .services-col{
+        display: flex;
+        margin-left: 103px;
+    }
+    .services-sec .container .services-col .ser-icon{
+       width: 120px;
+       height: 120px;
+       background: #C4C4C4;
+       margin-right: 20px;
+    }
+    .services-sec .container .services-col .ser-icon .iconify{
+       width: 60px;
+       height: 60px;
+       margin-left: 30px;
+       margin-top: 30px;
+    }
+    .services-sec .container .services-col .ser-img {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .services-sec .container .services-col .ser-img img{
+       /* position: absolute; */
+       width: 120px;
+       height: 120px;
+       left: 260px;
+       object-fit: cover;
+    }
+    .services-sec .container .services-col .ser-dtl{
+       width: 837px;
+       height: 83px;
+    }
+    .services-sec .container .services-col .ser-dtl h3{
+       width: 475px;
+       height: 48px;
+       font-size: 26px;
+       line-height: 186%;
+       /* or 48px */
+       letter-spacing: 0.24em;
+       color: #FFFFFF;
+       margin-left: 20px;
+    }
+    .services-sec .container .services-col .ser-dtl p{
+       width: 837px;
+       height: 41px;
+       font-size: 13px;
+       line-height: 186%;
+       /* or 24px */
+       letter-spacing: 0.6em;
+       color: #FFFFFF;
+       margin-left: 20px;
+    }
+   
     
 }
