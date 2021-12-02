@@ -779,81 +779,36 @@ font-size: 18px;
     .blog-sec{
         background: black;
     }
-    .blog-sec .container .blog h1{
-       width: 100%;
-       height: 260px;
-       font-style: italic;
-       font-weight: 200;
-       font-size: 138px;
-       line-height: 186%;
-       /* or 260px */  
-       letter-spacing: 0.6em;
-       color: #FFFFFF;
-       text-shadow: 12px 23px 15px #88302E;
+    .blog-sec .container .blog h1{ /* working */
+       font-size: 100px;
     }
-    .blog-sec .container .blog h1:hover{
-       text-shadow: 12px 23px 15px blue;
-   }
-    .blog-sec .container .blog-post img{
-       width: 1128px;
-       height: 354px;
-       object-fit: cover;
-       margin-left: 103px;
+    .blog-sec .container .blog-post img{ /* working */
+       width: 748px;
+       height: 254px;
     }
     .blog-sec .container .blog-post .head-com{
         display: flex;
         color: blanchedalmond;
     }
-    .blog-sec .container .blog-post .head-com h3{
-       width: 849px;
-       height: 60px;
-       font-size: 30px;
-       line-height: 186%;
-       /* identical to box height, or 60px */
-       letter-spacing: 0.6em;
-       color: #FFFFFF;
-       margin-left: 103px;
+    .blog-sec .container .blog-post .head-com h3{ /* working */
+       width: 485px;
+       height: 40px;
+       font-size: 18px;
+       line-height: 136%;
     }
-    .blog-sec .container .blog-post .head-com p{
+    .blog-sec .container .blog-post .head-com p{ /* working */
        width: 199px;
-       height: 28px;
-       font-size: 15px;
-       line-height: 186%;
-       /* identical to box height, or 28px */
-       letter-spacing: 0.6em;
-       color: #FFFFFF;
-       margin-top: 15px;
-       margin-left: 70px;
+       line-height: 136%;
+       margin-top: 1px;
     }
     .blog-sec .container .blog-post p{
-   
-       width: 1128px;
-       height: 242px;
-       font-size: 12px;
-       line-height: 186%;
-       /* or 22px */
-       letter-spacing: 0.6em;
-       color: #FFFFFF;
-       margin-left: 103px;
+       width: 780px;
+       height: 140px;
+       font-size: 9px;
+       line-height: 136%;
     }
-    .blog-sec .container .blog-post .blog-btn{
-   
-    }
-    .read-btn{
-       width: 87px;
-       height: 34px;
-       background: black;
-       border: none;
-       border-radius: 27px;
-       font-size: 19px;
-       color: white;
-       filter: drop-shadow(2px 1.5px 4px #E5E5E5);
-       margin-left: 45%;
-       margin-top: 20px;
-    }
-    .read-btn:hover{
-       filter: drop-shadow(2px 1.5px 4px blue);
-    }
+
+    /* --contact- */
    
    
     
