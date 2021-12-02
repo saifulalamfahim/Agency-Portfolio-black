@@ -740,73 +740,121 @@ font-size: 18px;
     .services-sec{
         background: black;
     }
-    .services-sec .container .services h1{
-       width: 100%;
-       height: 279px;
-       font-style: italic;
-       font-weight: 100;
-       font-size: 148px;
-       line-height: 186%;
-       margin-top: -50px;
-       /* identical to box height, or 279px */
-       letter-spacing: 0.6em;
-       color: #FFFFFF;
-       text-shadow: 12px 23px 15px #385069;
+    .services-sec .container .services h1{ /* working */
+       font-size: 100px;
     }
-    .services-sec .container .services h1:hover{
-       text-shadow: 12px 23px 15px blue;
-   }
     .services-sec .container .services-col{
         display: flex;
         margin-left: 103px;
     }
-    .services-sec .container .services-col .ser-icon{
-       width: 120px;
-       height: 120px;
-       background: #C4C4C4;
+    .services-sec .container .services-col .ser-icon{ /* working */
+       width: 70px;
+       height: 70px;
+    }
+    .services-sec .container .services-col .ser-icon .iconify{ /* working */
+       width: 30px;
+       height: 30px;
+       margin-left: 20px;
+       margin-top: 20px;
        margin-right: 20px;
     }
-    .services-sec .container .services-col .ser-icon .iconify{
-       width: 60px;
-       height: 60px;
-       margin-left: 30px;
-       margin-top: 30px;
+    .services-sec .container .services-col .ser-img img{ /* working */
+       width: 70px;
+       height: 70px;
     }
-    .services-sec .container .services-col .ser-img {
-        margin-right: 20px;
-        margin-bottom: 10px;
-    }
-    .services-sec .container .services-col .ser-img img{
-       /* position: absolute; */
-       width: 120px;
-       height: 120px;
-       left: 260px;
-       object-fit: cover;
-    }
-    .services-sec .container .services-col .ser-dtl{
-       width: 837px;
-       height: 83px;
-    }
-    .services-sec .container .services-col .ser-dtl h3{
+    .services-sec .container .services-col .ser-dtl h3{  /* working */
        width: 475px;
-       height: 48px;
-       font-size: 26px;
-       line-height: 186%;
-       /* or 48px */
-       letter-spacing: 0.24em;
-       color: #FFFFFF;
-       margin-left: 20px;
+       height: 31px;
+       line-height: 136%;
     }
-    .services-sec .container .services-col .ser-dtl p{
-       width: 837px;
-       height: 41px;
-       font-size: 13px;
+    .services-sec .container .services-col .ser-dtl p{  /* working */
+       width: 580px;
+       font-size: 9px;
+       line-height: 136%;
+    }
+
+
+    /* --blog-- */
+
+    .blog-sec{
+        background: black;
+    }
+    .blog-sec .container .blog h1{
+       width: 100%;
+       height: 260px;
+       font-style: italic;
+       font-weight: 200;
+       font-size: 138px;
        line-height: 186%;
-       /* or 24px */
+       /* or 260px */  
        letter-spacing: 0.6em;
        color: #FFFFFF;
-       margin-left: 20px;
+       text-shadow: 12px 23px 15px #88302E;
     }
+    .blog-sec .container .blog h1:hover{
+       text-shadow: 12px 23px 15px blue;
+   }
+    .blog-sec .container .blog-post img{
+       width: 1128px;
+       height: 354px;
+       object-fit: cover;
+       margin-left: 103px;
+    }
+    .blog-sec .container .blog-post .head-com{
+        display: flex;
+        color: blanchedalmond;
+    }
+    .blog-sec .container .blog-post .head-com h3{
+       width: 849px;
+       height: 60px;
+       font-size: 30px;
+       line-height: 186%;
+       /* identical to box height, or 60px */
+       letter-spacing: 0.6em;
+       color: #FFFFFF;
+       margin-left: 103px;
+    }
+    .blog-sec .container .blog-post .head-com p{
+       width: 199px;
+       height: 28px;
+       font-size: 15px;
+       line-height: 186%;
+       /* identical to box height, or 28px */
+       letter-spacing: 0.6em;
+       color: #FFFFFF;
+       margin-top: 15px;
+       margin-left: 70px;
+    }
+    .blog-sec .container .blog-post p{
+   
+       width: 1128px;
+       height: 242px;
+       font-size: 12px;
+       line-height: 186%;
+       /* or 22px */
+       letter-spacing: 0.6em;
+       color: #FFFFFF;
+       margin-left: 103px;
+    }
+    .blog-sec .container .blog-post .blog-btn{
+   
+    }
+    .read-btn{
+       width: 87px;
+       height: 34px;
+       background: black;
+       border: none;
+       border-radius: 27px;
+       font-size: 19px;
+       color: white;
+       filter: drop-shadow(2px 1.5px 4px #E5E5E5);
+       margin-left: 45%;
+       margin-top: 20px;
+    }
+    .read-btn:hover{
+       filter: drop-shadow(2px 1.5px 4px blue);
+    }
+   
    
     
 }
