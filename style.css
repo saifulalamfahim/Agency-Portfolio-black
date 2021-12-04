@@ -648,68 +648,59 @@ font-size: 18px;
 /*------ resposive area----------- */
 
 @media only screen and (max-width: 992px){ 
-    .nav{   /* working */
+    .nav{
         margin-right: 90px;  
     }
-   
-
-
-
-    .row{  /* working */
+    .row{  
         padding-bottom: 200px;
     }
-
-    .header .row .header-detail h1{   /* working */
+    .header .row .header-detail h1{  
         font-size: 42px;
-        font-weight: 600;
-        
+        font-weight: 600; 
     }
-    .header .row .header-detail p{ /* working */
+    .header .row .header-detail p{ 
         width: 674px;
     }
-    .explore-btn{ /* working */
+    .explore-btn{ 
         top: 520px;
     }
-    .more-btn{ /* working */
+    .more-btn{ 
         top: 520px;
     }
-
-
     /* --about-- */
-
-    .about-sec{
-        background-color: black;
-    }
-    .about-sec .container .about h1{ /* working */
+    .about-sec .container .about h1{ 
         font-size: 100px;
     }
-    .about-sec .container .about-col-1 .pera p{  /* working */
+    .about-sec .container .about-col-1{
+        margin-top: -50px;
+    }
+    .about-sec .container .about-col-1 .pera p{  
         width: 450px;
         font-size: 9px;
         padding-bottom: 80px;
         line-height: 136%;
     }
-    .about-sec .container .about-col-1 .about-box .white-box{  /* working */
+    .about-sec .container .about-col-1 .about-box .white-box{ 
         width: 321px;
         height: 286px;
         left: 539px;
     }
-    .about-sec .container .about-col-1 .about-box .white-box .white-img img{  /* working */
+    .about-sec .container .about-col-1 .about-box .white-box .white-img img{ 
         width: 321px;
         height: 286px;
     }
-    .about-sec .container .about-col-2 .about-box .white-box{ /* working */
+    .about-sec .container .about-col-2 .about-box .white-box{ 
         width: 321px;
         height: 286px;
         margin-left: 103px;
     }
-    .about-sec .container .about-col-2 .about-box .white-box .white-img img{ /* working */
+    .about-sec .container .about-col-2 .about-box .white-box .white-img img{ 
         margin-left: 40px;
         margin-top: 40px;
         width: 321px;
         height: 286px;
     }
-    .about-sec .container .about-col-2 .pera p{  /* working */
+    .about-sec .container .about-col-2 .pera p{ 
         margin-left: 500px;
         width: 470px;
         font-size: 9px;
@@ -717,109 +708,92 @@ font-size: 18px;
         line-height: 136%;
         padding-right: 110px;
     }
-    .about-sec .container .about-col-3 .together-img .img-1 img{ /* working */
+    .about-sec .container .about-col-3 .together-img .img-1 img{ 
         width: 271px;
         height: 245px;
     }
-    .about-sec .container .about-col-3 .together-img .img-2 .div-1 img{ /* working */
+    .about-sec .container .about-col-3 .together-img .img-2 .div-1 img{
         width: 112px;
         height: 112px;
     }
-    .about-sec .container .about-col-3 .together-img .img-3 img{ /* working */
+    .about-sec .container .about-col-3 .together-img .img-3 img{ 
         width: 340px;
         height: 245px;
     }
-    .about-sec .container .about-col-3 p{ /* working */
+    .about-sec .container .about-col-3 p{ 
         width: 865px;
         height: 9px;
         font-size: 9px;
         padding-right: 100px;
          line-height: 136%;
     }
-
-
     /* --sevices-- */
     .services-sec{
         background: black;
     }
-    .services-sec .container .services h1{ /* working */
+    .services-sec .container .services h1{ 
        font-size: 100px;
     }
-    .services-sec .container .services-col{
-        display: flex;
-        margin-left: 103px;
+    .services-sec .container .services-col{ 
+       margin-top: -45px;
+       padding-bottom: 45px;
     }
-    .services-sec .container .services-col .ser-icon{ /* working */
+    .services-sec .container .services-col .ser-icon{ 
        width: 70px;
        height: 70px;
     }
-    .services-sec .container .services-col .ser-icon .iconify{ /* working */
+    .services-sec .container .services-col .ser-icon .iconify{ 
        width: 30px;
        height: 30px;
        margin-left: 20px;
        margin-top: 20px;
        margin-right: 20px;
     }
-    .services-sec .container .services-col .ser-img img{ /* working */
+    .services-sec .container .services-col .ser-img img{ 
        width: 70px;
        height: 70px;
     }
-    .services-sec .container .services-col .ser-dtl h3{  /* working */
+    .services-sec .container .services-col .ser-dtl h3{  
        width: 475px;
        height: 31px;
        line-height: 136%;
     }
-    .services-sec .container .services-col .ser-dtl p{  /* working */
+    .services-sec .container .services-col .ser-dtl p{  
        width: 580px;
        font-size: 9px;
        line-height: 136%;
     }
-
-
     /* --blog-- */
-
-    .blog-sec{
-        background: black;
-    }
-    .blog-sec .container .blog h1{ /* working */
+    .blog-sec .container .blog h1{ 
        font-size: 98px;
+       margin-top: -30px;
     }
-    .blog-sec .container .blog-post img{ /* working */
+    .blog-sec .container .blog-post img{ 
+        margin-top: -30px;
        width: 748px;
        height: 254px;
     }
-    .blog-sec .container .blog-post .head-com{
-        display: flex;
-        color: blanchedalmond;
-    }
-    .blog-sec .container .blog-post .head-com h3{ /* working */
+    .blog-sec .container .blog-post .head-com h3{
        width: 485px;
        height: 40px;
        font-size: 18px;
        line-height: 136%;
     }
-    .blog-sec .container .blog-post .head-com p{ /* working */
+    .blog-sec .container .blog-post .head-com p{ 
        width: 199px;
        line-height: 136%;
        margin-top: 1px;
     }
-    .blog-sec .container .blog-post p{ /* working */
+    .blog-sec .container .blog-post p{ 
        width: 780px;
        height: 140px;
        font-size: 9px;
        line-height: 136%;
     }
-
     /* --contact- */ 
-
-
-
-    .contact-sec{
-        background: black;
-        padding-bottom: 30px;
-    }
-    .contact-sec .container .contact h1{ /* working */
+    .contact-sec .container .contact h1{ 
         font-size: 100px;
+        padding-top: 30px;
     }
     .contact-sec .container .flex{
         display: flex;
@@ -827,48 +801,46 @@ font-size: 18px;
         align-items: center;
         padding-bottom: 30px;
     }
-    .contact-sec .container .flex .con-dtl h4{  /* working */
-        /* width: 215px; */
+    .contact-sec .container .flex .con-dtl h4{  
         height: 29px;
         font-size: 18px;
         line-height: 136%;
     }
-    .contact-sec .container .flex .con-dtl p{ /* working */
+    .contact-sec .container .flex .con-dtl p{ 
         width: 286px;
         height: 22px;
         font-size: 9px;
         line-height: 136%;
     }
-    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf{ /* working */
+    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf{ 
         height: 12px;
     }
-    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf p{ /* working */
+    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf p{ 
         width: 260px;
-        /* height: 28px; */
         font-size: 9px;
         line-height: 136%;
         margin-left: 20px;
         margin-top: 15px;
     }
-    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf .iconify{ /* working */
+    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf .iconify{ 
         width: 20px;
         height: 20px;
     }
     
-    .contact-sec .container .flex .form{ /* working */
+    .contact-sec .container .flex .form{ 
         width: 400px;
         height: 230px;
         padding-top: 20px;
     }
-    .contact-sec .container .flex .form .input-1{ /* working */
+    .contact-sec .container .flex .form .input-1{
         width: 290px;
         height: 24px;
     }
-    .contact-sec .container .flex .form .input-2{ /* working */
+    .contact-sec .container .flex .form .input-2{ 
         width: 290px;
         height: 60px;
     }
-    .send-btn{ /* working */
+    .send-btn{ 
         width: 67px;
         height: 24px;
         font-size: 12px;
