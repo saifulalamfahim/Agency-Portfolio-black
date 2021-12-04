@@ -61,7 +61,6 @@
 .btn:hover{
     filter: drop-shadow(2px 1.5px 10px blue);
 }
-
 .header{
     background: black;
 }
@@ -71,26 +70,18 @@
 }
 
 .header .row .header-detail h1{
-    /* position: absolute; */
-    /* width: 1160px;
-    height: 250px; */
-    /* left: 103px; */
     font-size: 67px;
     line-height: 186%;
     font-weight: 400;
-    /* or 125px */
     letter-spacing: 0.24em;
     color: white;
     
 }
 .header .row .header-detail p{
-    /* position: absolute; */
     width: 984px;
     height: 110px;
-    /* left: 103px; */
     font-size: 12px;
     line-height: 186%;
-    /* or 22px */
     letter-spacing: 0.6em;
     color: #FFFFFF;
     margin-top: 40px;
@@ -101,7 +92,6 @@
     height: 34px;
     left: 103px;
     top: 560px;
-
     background: black;
     border: none;
     border-radius: 27px;
@@ -134,8 +124,6 @@
 .media{
     width: 41px;
     height: 41px;
-    /* left: 1214px;
-    top: 206px; */
     border-radius: 50px;
     background: black;
     box-shadow: 1.5px 1.5px 4px 1px #E5E5E5;
@@ -170,17 +158,6 @@ font-size: 18px;
 .about-sec{
     background-color: black;
 }
-/* .about-sec .container h1{
-    margin-top: -40px;
-    padding-left: 30px;
-    padding-bottom: 50px;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 140px;
-    letter-spacing: 0.6em;
-    color: #FFFFFF;
-    text-shadow: 12px 23px 15px rgba(172, 175, 20, 0.46);
-} */
 .about-sec .container .about h1{
     width: 100%;
     height: 279px;
@@ -194,20 +171,6 @@ font-size: 18px;
     color: #FFFFFF;
     text-shadow: 12px 23px 15px #385069;
 }
-
-/* .services-sec .container .services h1{
-    width: 100%;
-    height: 279px;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 148px;
-    line-height: 186%;
-    margin-top: -50px;
-    letter-spacing: 0.6em;
-    color: #FFFFFF;
-    text-shadow: 12px 23px 15px #385069;
- } */
-
 .about-sec .container h1:hover{
     text-shadow: 12px 23px 15px blue;
 }
@@ -221,7 +184,6 @@ font-size: 18px;
     padding-left: 103px;
     padding-bottom: 280px;
     line-height: 186%;
-    /* or 22px */
     letter-spacing: 0.6em;
     color: #FFFFFF;
 }
@@ -234,13 +196,6 @@ font-size: 18px;
     border: 3px solid #E5E5E5;
     box-sizing: border-box;
 }
-/* .about-sec .container .about-col-1 .about-box .white-box .white-img{
-  
-    width: 421px;
-    height: 386px;
-    background: url(images/pic-1.jpg), #0D0D0D;
-  
-} */
 .about-sec .container .about-col-1 .about-box .white-box .white-img img{
     margin-left: -50px;
     margin-top: 40px;
@@ -256,7 +211,6 @@ font-size: 18px;
    position: absolute;
     width: 421px;
     height: 386px;
-    /* left: 103px; */
     background: black;
     border: 3px solid #E5E5E5;
     box-sizing: border-box;
@@ -270,19 +224,13 @@ font-size: 18px;
     object-fit: cover;
     box-shadow: -1px 1px 7px -19px rgba(229, 229, 229, 0.92);
 }
-/* .about-sec .container .about-col-2 .pera{
-    display: flex;
-    flex-direction: column;
-} */
 .about-sec .container .about-col-2 .pera p{
-    /* position: absolute; */
     width: 600px;
     height: 220px;
     margin-left: 660px;
     padding-bottom: 280px;
     font-size: 12px;
     line-height: 186%;
-    /* or 22px */
     letter-spacing: 0.6em;
     color: #FFFFFF;
 }
@@ -306,14 +254,6 @@ font-size: 18px;
     margin-bottom: 20px;
     object-fit: cover;
 }
-/* .about-sec .container .about-col-3 .together-img .img-2 .div-2 img{
-    width: 182px;
-    height: 182px;
-    margin-left: 20px;
-    object-fit: cover;
-    margin-top: 200px;
-} */
-
 .about-sec .container .about-col-3 .together-img .img-3 img{
     width: 555px;
     height: 382px;
@@ -328,7 +268,6 @@ font-size: 18px;
     padding-bottom: 150px;
     font-size: 12px;
     line-height: 186%;
-    /* or 22px */
     letter-spacing: 0.6em;
     color: #FFFFFF;
 }
@@ -346,7 +285,6 @@ font-size: 18px;
     font-size: 148px;
     line-height: 186%;
     margin-top: -50px;
-    /* identical to box height, or 279px */
     letter-spacing: 0.6em;
     color: #FFFFFF;
     text-shadow: 12px 23px 15px #385069;
@@ -375,7 +313,6 @@ font-size: 18px;
      margin-bottom: 10px;
  }
  .services-sec .container .services-col .ser-img img{
-    /* position: absolute; */
     width: 120px;
     height: 120px;
     left: 260px;
@@ -390,7 +327,6 @@ font-size: 18px;
     height: 48px;
     font-size: 26px;
     line-height: 186%;
-    /* or 48px */
     letter-spacing: 0.24em;
     color: #FFFFFF;
     margin-left: 20px;
@@ -400,14 +336,11 @@ font-size: 18px;
     height: 41px;
     font-size: 13px;
     line-height: 186%;
-    /* or 24px */
     letter-spacing: 0.6em;
     color: #FFFFFF;
     margin-left: 20px;
  }
-
  /* ---blog Page---- */
-
  .blog-sec{
      background: black;
  }
@@ -418,7 +351,6 @@ font-size: 18px;
     font-weight: 200;
     font-size: 138px;
     line-height: 186%;
-    /* or 260px */  
     letter-spacing: 0.6em;
     color: #FFFFFF;
     text-shadow: 12px 23px 15px #88302E;
@@ -441,7 +373,6 @@ font-size: 18px;
     height: 60px;
     font-size: 30px;
     line-height: 186%;
-    /* identical to box height, or 60px */
     letter-spacing: 0.6em;
     color: #FFFFFF;
     margin-left: 103px;
@@ -451,25 +382,19 @@ font-size: 18px;
     height: 28px;
     font-size: 15px;
     line-height: 186%;
-    /* identical to box height, or 28px */
     letter-spacing: 0.6em;
     color: #FFFFFF;
     margin-top: 15px;
     margin-left: 70px;
  }
  .blog-sec .container .blog-post p{
-
     width: 1128px;
     height: 242px;
     font-size: 12px;
     line-height: 186%;
-    /* or 22px */
     letter-spacing: 0.6em;
     color: #FFFFFF;
     margin-left: 103px;
- }
- .blog-sec .container .blog-post .blog-btn{
-
  }
  .read-btn{
     width: 87px;
@@ -486,8 +411,6 @@ font-size: 18px;
  .read-btn:hover{
     filter: drop-shadow(2px 1.5px 4px blue);
  }
-
- 
 /* --contact page--- */
 .contact-sec{
     background: black;
@@ -500,7 +423,6 @@ font-size: 18px;
     font-weight: 200;
     font-size: 140px;
     line-height: 186%;
-    /* or 260px */
     letter-spacing: 0.6em;
     color: #FFFFFF;
     text-shadow: 12px 23px 15px #385069;
@@ -519,7 +441,6 @@ font-size: 18px;
     height: 43px;
     font-size: 23px;
     line-height: 186%;
-    /* identical to box height, or 43px */
     letter-spacing: 0.24em;
     color: #FFFFFF;
     margin-left: 103px;
@@ -529,7 +450,6 @@ font-size: 18px;
     height: 44px;
     font-size: 12px;
     line-height: 186%;
-    /* or 22px */
     letter-spacing: 0.6em;
     color: #FFFFFF;
     margin-left: 103px;
@@ -545,7 +465,6 @@ font-size: 18px;
     height: 28px;
     font-size: 12px;
     line-height: 186%;
-    /* or 22px */
     letter-spacing: 0.24em;
     color: #FFFFFF;
     margin-left: 40px;
