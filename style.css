@@ -5,6 +5,40 @@
     padding: 0;
 }
 
+
+
+/* mobile nav start */
+.mobile-nav{
+   display: none;
+   background: black;
+   
+}
+.mobile-nav .mobile ul{
+    display: flex;
+    justify-content: center;
+    color: blanchedalmond;
+}
+.mobile-nav .mobile ul li{
+    /* width: 30px;
+    height: 30px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    /* margin-right: 25px; */
+    list-style-type: none;
+    border: 1px solid black;
+}
+.mobile-nav .mobile ul li a .iconify{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/* mobile nav end */
+
+
 .container{
     max-width: 100%;
     margin: auto;
@@ -765,9 +799,14 @@ font-size: 18px;
         font-size: 12px;
         margin-left: 110px;
         margin-top: 20px;
+    }    
+}
+
+@media only screen and (max-width: 576px){
+    .mobile-nav{
+        display: none;
+     }
+     .fram{
+        display: none;
     }
-    
-   
-   
-    
 }
