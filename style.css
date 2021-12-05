@@ -1055,6 +1055,72 @@ font-size: 18px;
 
     /* contact sec */
 
+    .contact-sec{
+        background: black;
+        padding-bottom: 30px;
+    }
+    .contact-sec .container .contact h1{ /* worling */
+        height: 100px;
+        font-weight: 100;
+        font-size: 37px;
+        line-height: 136%;
+        text-shadow: 12px 8px 8px blue;
+    }
+    .contact-sec .container .flex{ /* worling */
+        flex-direction: column;
+        padding-bottom: 30px;
+       
+    }
+    .contact-sec .container .flex .con-dtl h4{ /* worling */
+        font-size: 17px;
+    }
+    .contact-sec .container .flex .con-dtl p{ /* worling */
+        width: 65%;
+        height: 4px;
+        font-size: 7px;
+        line-height: 186%;
+        margin-left: 103px;
+    }
+    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf{
+        /* display: flex;
+        margin-left: 103px;
+        margin-top: 40px;
+        align-items: center; */
+        margin-bottom: 50px;
+    }
+    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf p{ /* worling */
+        width: 367px;
+        height: 27px;
+        font-size: 10px;
+    }
+    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf .iconify{ /* worling */
+        width: 20px;
+        height: 20px;
+    }
+    
+    .contact-sec .container .flex .form{ /* worling */
+        width: 93%;
+        height: 174px;
+        padding: 10px 23px;
+        margin-right: 0px;
+    }
+    .contact-sec .container .flex .form .input-1{ /* worling */
+        width: 287px;
+        margin-bottom: 10px;
+    }
+    
+    .contact-sec .container .flex .form .input-2{ /* worling */
+        width: 287px;
+        height: 50px;
+    }
+    .send-btn{ /* worling */
+        width: 80px;
+        height: 24px;
+        font-size: 12px;
+        margin-left: 40%;
+        margin-top: 10px;
+    }
+
 
    
 }
