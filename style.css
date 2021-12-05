@@ -1006,72 +1006,55 @@ font-size: 18px;
     .blog-sec{
         background: black;
     }
-    .blog-sec .container .blog h1{
-       width: 100%;
-       height: 260px;
-       font-style: italic;
-       font-weight: 200;
-       font-size: 138px;
-       line-height: 186%;
-       letter-spacing: 0.6em;
-       color: #FFFFFF;
-       text-shadow: 12px 23px 15px #88302E;
+    .blog-sec .container .blog h1{ /* worling */
+        height: 100px;
+        font-weight: 100;
+        font-size: 37px;
+        line-height: 136%;
+        margin-top: -20px;
+        text-shadow: 12px 8px 8px blue;
     }
-    .blog-sec .container .blog h1:hover{
-       text-shadow: 12px 23px 15px blue;
-   }
-    .blog-sec .container .blog-post img{
-       width: 1128px;
-       height: 354px;
-       object-fit: cover;
-       margin-left: 103px;
+    .blog-sec .container .blog-post img{ /* worling */
+       width: 328px;
+       height: 120px;
+       margin-left: 13px;
     }
     .blog-sec .container .blog-post .head-com{
         display: flex;
         color: blanchedalmond;
     }
-    .blog-sec .container .blog-post .head-com h3{
-       width: 849px;
-       height: 60px;
-       font-size: 30px;
-       line-height: 186%;
-       letter-spacing: 0.6em;
-       color: #FFFFFF;
-       margin-left: 103px;
+    .blog-sec .container .blog-post .head-com h3{ /* worling */
+       width: 70%;
+       height: 20px;
+       font-size: 9px;
+       margin-left: 13px;
     }
-    .blog-sec .container .blog-post .head-com p{
-       width: 199px;
-       height: 28px;
-       font-size: 15px;
-       line-height: 186%;
-       letter-spacing: 0.6em;
-       color: #FFFFFF;
-       margin-top: 15px;
-       margin-left: 70px;
+    .blog-sec .container .blog-post .head-com p{ /* worling */
+       width: 30%;
+       height: 1px;
+       font-size: 7px;
+       letter-spacing: 0.3em;
+       margin-top: 1px;
+       margin-left: 10px;
     }
-    .blog-sec .container .blog-post p{
-       width: 1128px;
-       height: 242px;
+    .blog-sec .container .blog-post p{ /* worling */
+       width: 96%;
+       height: 260px;
+       font-size: 7px;
+       line-height: 186%;
+       margin-left: 13px;
+    }
+    .read-btn{ /* worling */
+        width: 80px;
+        height: 24px;
        font-size: 12px;
-       line-height: 186%;
-       letter-spacing: 0.6em;
-       color: #FFFFFF;
-       margin-left: 103px;
-    }
-    .read-btn{
-       width: 87px;
-       height: 34px;
-       background: black;
-       border: none;
-       border-radius: 27px;
-       font-size: 19px;
-       color: white;
-       filter: drop-shadow(2px 1.5px 4px #E5E5E5);
-       margin-left: 45%;
+       filter: drop-shadow(2px 1.5px 4px blue);
+       margin-left: 40%;
        margin-top: 20px;
     }
-    .read-btn:hover{
-       filter: drop-shadow(2px 1.5px 4px blue);
-    }
+
+    /* contact sec */
+
+
    
 }
