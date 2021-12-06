@@ -598,6 +598,13 @@ font-size: 18px;
 }
 
 
+.blenk-section .container .drive{
+    width: 100%;
+    height: 120px;
+    background: black;
+    display: none;
+}
+
 
 /*------ resposive area----------- */
 
@@ -805,7 +812,12 @@ font-size: 18px;
 
 @media only screen and (max-width: 576px){
     .mobile-nav{ /* worling */
+       
         display: block;
+        position: fixed;
+        margin-top: -100px;
+        margin-bottom: 70px;
+        z-index: 1;
      }
      .fram{ /* worling */
         display: none;
@@ -1134,5 +1146,13 @@ font-size: 18px;
     }
 
 
+
+    /* footer-sec */
+    .footer-sec p{
+        font-size: 7px;
+    }
+    .blenk-section .container .drive{
+        display: block;
+    }
    
 }
