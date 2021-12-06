@@ -3,16 +3,11 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    /* max-width: 100%; */
 }
-
-
-
 /* mobile nav start */
 .mobile-nav{
    display: none;
-   background: black;
-   
+   background: black; 
 }
 .mobile-nav .mobile ul{
     display: flex;
@@ -20,13 +15,10 @@
     color: blanchedalmond;
 }
 .mobile-nav .mobile ul li{
-    /* width: 30px;
-    height: 30px; */
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 2px;
-    /* margin-right: 25px; */
     list-style-type: none;
     border: 1px solid black;
 }
@@ -34,12 +26,7 @@
     width: 30px;
     height: 30px;
 }
-
-
-
 /* mobile nav end */
-
-
 .container{
     max-width: 100%;
     margin: auto;
@@ -103,14 +90,12 @@
     padding: 50px 103px 110px 100px ;
     display: flex;
 }
-
 .header .row .header-detail h1{
     font-size: 67px;
     line-height: 186%;
     font-weight: 400;
     letter-spacing: 0.24em;
-    color: white;
-    
+    color: white;   
 }
 .header .row .header-detail p{
     width: 984px;
@@ -186,10 +171,7 @@ font-size: 18px;
 .media-1:hover{
     box-shadow: -1.5px -1.5px 4px 1px blue;
 }
-
-
 /* -about page- */
-
 .about-sec{
     background-color: black;
 }
@@ -295,7 +277,6 @@ font-size: 18px;
     margin-left: 20px;
     object-fit: cover;
 }
-
 .about-sec .container .about-col-3 p {
     width: 1128px;
     height: 132px;
@@ -306,8 +287,6 @@ font-size: 18px;
     letter-spacing: 0.6em;
     color: #FFFFFF;
 }
-
-
 /* ----services page---- */
  .services-sec{
      background: black;
@@ -508,7 +487,6 @@ font-size: 18px;
     width: 30px;
     height: 30px;
 }
-
 .contact-sec .container .flex .form{
     width: 509px;
     height: 314px;
@@ -532,7 +510,6 @@ font-size: 18px;
 .contact-sec .container .flex .form .input-1:hover{
     box-shadow: 2px 1.5px 8px white;
 }
-
 .contact-sec .container .flex .form .input-2{
     width: 387px;
     height: 100px;
@@ -552,7 +529,6 @@ font-size: 18px;
 .input-2::placeholder {
     color: rgba(229, 229, 229, 0.35);
   }
-
 .send-btn{
     width: 87px;
     height: 34px;
@@ -565,11 +541,9 @@ font-size: 18px;
     margin-left: 150px;
     margin-top: 20px;
 }
-
 .send-btn:hover{
     filter: drop-shadow(2px 1.5px 4px white);
  }
-
  /* ---footer page---- */
  .footer-sec{
      background-color: black;
@@ -596,18 +570,13 @@ font-size: 18px;
     letter-spacing: 0.6em;
     color: #FFFFFF;
 }
-
-
 .blenk-section .container .drive{
     width: 100%;
     height: 120px;
     background: black;
     display: none;
 }
-
-
 /*------ resposive area----------- */
-
 @media only screen and (max-width: 992px){ 
     .nav{
         margin-right: 90px;  
@@ -787,7 +756,6 @@ font-size: 18px;
         width: 20px;
         height: 20px;
     }
-    
     .contact-sec .container .flex .form{ 
         width: 400px;
         height: 230px;
@@ -809,36 +777,33 @@ font-size: 18px;
         margin-top: 20px;
     }    
 }
-
 @media only screen and (max-width: 576px){
-    .mobile-nav{ /* worling */
-       
+    .mobile-nav{
         display: block;
         position: fixed;
         margin-top: -100px;
         margin-bottom: 70px;
         z-index: 1;
      }
-     .fram{ /* worling */
+     .fram{ 
         display: none;
     }
-
-    .row{  /* worling */
+    .row{ 
        padding-left: 35px;
         display: flex;
     }
-    .header .row .header-detail h1{ /* worling */
+    .header .row .header-detail h1{ 
         font-size: 31px;
         line-height: 136%;
         font-weight: 600;  
     }
-    .header .row .header-detail p{ /* worling */
+    .header .row .header-detail p{ 
         width: 254px;
         font-size: 9px;
         line-height: 226%;
         margin-top: 10px;
     }
-    .explore-btn{ /* worling */
+    .explore-btn{ 
         width: 80px;
         height: 24px;
         left: 35px;
@@ -847,7 +812,7 @@ font-size: 18px;
         color: white;
         filter: drop-shadow(2px 1.5px 4px blue);
     }
-    .more-btn{ /* worling */
+    .more-btn{ 
         width: 80px;
         height: 24px;
         left: 134px;
@@ -856,22 +821,20 @@ font-size: 18px;
         font-size: 12px;
         filter: drop-shadow(2px 1.5px 4px blue);
     }
-    .social-btn{ /* worling */
+    .social-btn{
         margin-top: 105px;
     }
-    .media{ /* worling */
+    .media{
         box-shadow: 1.5px 1.5px 4px 1px blue;
     }
-    .media-1{  /* worling */
+    .media-1{ 
         box-shadow: -1.5px -1.5px 4px 1px blue;
     }
-
     /* about sec */
-
     .about-sec{
         background-color: black;
     }
-    .about-sec .container .about h1{  /* worling */
+    .about-sec .container .about h1{ 
         height: 120px;
         font-weight: 100;
         font-size: 37px;
@@ -883,75 +846,69 @@ font-size: 18px;
         display: flex;
         flex-direction: column;
     }
-    .about-sec .container .about-col-1 .pera p{ /* worling */
+    .about-sec .container .about-col-1 .pera p{
         width: 99%;
         height: 20px;
         font-size: 7px;
         padding-left: 13px;
         padding-bottom: 130px;
     }
-    .about-sec .container .about-col-1 .about-box .white-box{  /* worling */
-        /* position: absolute; */
+    .about-sec .container .about-col-1 .about-box .white-box{ 
         width: 280px;
         height: 245px;
         left: 13px;
         background: black;
         border: 3px solid blue;
     }
-    .about-sec .container .about-col-1 .about-box .white-box .white-img img{ /* worling */
+    .about-sec .container .about-col-1 .about-box .white-box .white-img img{ 
         margin-left: 20px;
         margin-top: 20px;
         width: 280px;
         height: 245px;
     }
-    .about-sec .container .about-col-2{  /* worling */
+    .about-sec .container .about-col-2{ 
         flex-direction: column;
         margin-top: 300px;
     }
-    .about-sec .container .about-col-2 .about-box .white-box{ /* worling */
+    .about-sec .container .about-col-2 .about-box .white-box{
         width: 280px;
         height: 245px;
         border: 3px solid blue;
         margin-left: 68px;
     }
-    .about-sec .container .about-col-2 .about-box .white-box .white-img img{ /* worling */
+    .about-sec .container .about-col-2 .about-box .white-box .white-img img{ 
         margin-left: -25px;
         margin-top: 18px;
         width: 280px;
-        height: 245px;
-      
+        height: 245px; 
     }
-    .about-sec .container .about-col-2 .pera p{ /* worling */
-        /* max-width: 200%; */
+    .about-sec .container .about-col-2 .pera p{ 
         width: 96%;
         height: 20px;
         margin-left: 13px;
         padding-right: 0px;
         padding-bottom: 130px;
-        font-size: 7px;
-        
+        font-size: 7px;  
     }
-    .about-sec .container .about-col-2 .pera { /* worling */
+    .about-sec .container .about-col-2 .pera { 
         margin-top: 290px;
     }
     .about-sec .container .about-col-3 .together-img{
         display: flex;
     }
-    .about-sec .container .about-col-3 .together-img .img-1 img{ /* worling */
+    .about-sec .container .about-col-3 .together-img .img-1 img{ 
         display: none;
     }
-    .about-sec .container .about-col-3 .together-img .img-2 .div-1{  /* worling */
+    .about-sec .container .about-col-3 .together-img .img-2 .div-1{ 
         display: none;
     } 
-    .about-sec .container .about-col-3 .together-img .img-3 img{ /* worling */
+    .about-sec .container .about-col-3 .together-img .img-3 img{
         width: 335px;
         height: 152px;
         margin-left: 13px;
     }
-    /* .about-sec .container .about-col-3 .pera-last{
-        max-width: 100%;
-    } */
-    .about-sec .container .about-col-3 p { /* worling */
+
+    .about-sec .container .about-col-3 p {
         width: 96%;
         height: 20px;
         padding-right: 0px;
@@ -959,14 +916,11 @@ font-size: 18px;
         font-size: 7px;
         line-height: 136%;
     }
-
-
     /* services sec */
-
     .services-sec{
         background: black;
     }
-    .services-sec .container .services h1{ /* worling */
+    .services-sec .container .services h1{ 
         height: 120px;
         font-weight: 100;
         font-size: 37px;
@@ -974,58 +928,47 @@ font-size: 18px;
         margin-top: -20px;
         text-shadow: 12px 8px 8px blue;
     }
-    .services-sec .container .services-col{ /* worling */
+    .services-sec .container .services-col{ 
         flex-direction: column;
         margin-left: 45%;
     }
-    .services-sec .container .services-col .ser-icon{ /* worling */
+    .services-sec .container .services-col .ser-icon{ 
        width: 50px;
        height: 50px;
        background: blue;
        border-radius: 5px;
        margin-bottom: 10px;
     }
-    .services-sec .container .services-col .ser-icon .iconify{ /* worling */
+    .services-sec .container .services-col .ser-icon .iconify{ 
        width: 30px;
        height: 30px;
        margin-left: 10px;
        margin-top: 11px;
     }
-    .services-sec .container .services-col .ser-img { /* worling */
+    .services-sec .container .services-col .ser-img {
         display: none;
-        /* margin-right: 20px;
-        margin-bottom: 10px; */
     }
-    /* .services-sec .container .services-col .ser-img img{
-       width: 120px;
-       height: 120px;
-       left: 260px;
-       object-fit: cover;
-    } */
-    .services-sec .container .services-col .ser-dtl{ /* worling */
+    .services-sec .container .services-col .ser-dtl{ 
        width: 100%;
        height: 70px;
     }
-    .services-sec .container .services-col .ser-dtl h3{  /* worling */
+    .services-sec .container .services-col .ser-dtl h3{  
        width: 160%;
         height: 20px;
        font-size: 17px;
        margin-left: -150px;
     }
-    .services-sec .container .services-col .ser-dtl p{ /* worling */
+    .services-sec .container .services-col .ser-dtl p{
        width: 170%;
-       /* height: 100px; */
        font-size: 7px;
        line-height: 136%;
        margin-left: -150px;
     }
-
     /* blog sec */
-
     .blog-sec{
         background: black;
     }
-    .blog-sec .container .blog h1{ /* worling */
+    .blog-sec .container .blog h1{ 
         height: 100px;
         font-weight: 100;
         font-size: 37px;
@@ -1033,7 +976,7 @@ font-size: 18px;
         margin-top: -20px;
         text-shadow: 12px 8px 8px blue;
     }
-    .blog-sec .container .blog-post img{ /* worling */
+    .blog-sec .container .blog-post img{ 
        width: 328px;
        height: 120px;
        margin-left: 13px;
@@ -1042,13 +985,13 @@ font-size: 18px;
         display: flex;
         color: blanchedalmond;
     }
-    .blog-sec .container .blog-post .head-com h3{ /* worling */
+    .blog-sec .container .blog-post .head-com h3{ 
        width: 70%;
        height: 20px;
        font-size: 9px;
        margin-left: 13px;
     }
-    .blog-sec .container .blog-post .head-com p{ /* worling */
+    .blog-sec .container .blog-post .head-com p{ 
        width: 30%;
        height: 1px;
        font-size: 7px;
@@ -1056,14 +999,14 @@ font-size: 18px;
        margin-top: 1px;
        margin-left: 10px;
     }
-    .blog-sec .container .blog-post p{ /* worling */
+    .blog-sec .container .blog-post p{ 
        width: 96%;
        height: 260px;
        font-size: 7px;
        line-height: 186%;
        margin-left: 13px;
     }
-    .read-btn{ /* worling */
+    .read-btn{
         width: 80px;
         height: 24px;
        font-size: 12px;
@@ -1071,88 +1014,74 @@ font-size: 18px;
        margin-left: 40%;
        margin-top: 20px;
     }
-
     /* contact sec */
-
     .contact-sec{
         background: black;
         padding-bottom: 30px;
     }
-    .contact-sec .container .contact h1{ /* worling */
+    .contact-sec .container .contact h1{
         height: 100px;
         font-weight: 100;
         font-size: 37px;
         line-height: 136%;
         text-shadow: 12px 8px 8px blue;
     }
-    .contact-sec .container .flex{ /* worling */
+    .contact-sec .container .flex{
         flex-direction: column;
-        padding-bottom: 30px;
-       
+        padding-bottom: 30px;   
     }
     .contact-sec .container .flex .con-dtl{
         width: 100%;
        margin-right: 180px;
     }
-    .contact-sec .container .flex .con-dtl h4{ /* worling */
+    .contact-sec .container .flex .con-dtl h4{ 
         width: 50%;
         font-size: 17px;
     }
-    .contact-sec .container .flex .con-dtl p{ /* worling */
+    .contact-sec .container .flex .con-dtl p{
         width: 95%;
         height: 4px;
         font-size: 7px;
         line-height: 136%;
-       
     }
     .contact-sec .container .flex .con-dtl .cont-ver .cont-inf{
-        /* display: flex;
-        margin-left: 103px;
-        margin-top: 40px;
-        align-items: center; */
         margin-bottom: 50px;
     }
-    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf p{ /* worling */
+    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf p{
         width: 367px;
         height: 27px;
         font-size: 10px;
     }
-    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf .iconify{ /* worling */
+    .contact-sec .container .flex .con-dtl .cont-ver .cont-inf .iconify{
         width: 20px;
         height: 20px;
     }
-    
-    .contact-sec .container .flex .form{ /* worling */
+    .contact-sec .container .flex .form{
         width: 93%;
         height: 174px;
         padding: 10px 23px;
         margin-right: 0px;
     }
-    .contact-sec .container .flex .form .input-1{ /* worling */
+    .contact-sec .container .flex .form .input-1{ 
         width: 287px;
         margin-bottom: 10px;
     }
-    
-    .contact-sec .container .flex .form .input-2{ /* worling */
+    .contact-sec .container .flex .form .input-2{ 
         width: 287px;
         height: 50px;
     }
-    .send-btn{ /* worling */
+    .send-btn{ 
         width: 80px;
         height: 24px;
         font-size: 12px;
         margin-left: 40%;
         margin-top: 10px;
     }
-
-
-
     /* footer-sec */
     .footer-sec p{
         font-size: 7px;
     }
     .blenk-section .container .drive{
         display: block;
-    }
-   
+    } 
 }
